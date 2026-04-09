@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "news_lists",
+  "info": {
+    "singularName": "news-list",
+    "pluralName": "news-lists",
+    "displayName": "NewsList"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "news_items": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::news-item.news-item"
+    }
+  }
+}

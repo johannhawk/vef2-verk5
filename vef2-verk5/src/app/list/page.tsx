@@ -16,7 +16,7 @@ async function getNewsItems() {
   return data;
 }
 
-export default async function OurTeam() {
+export default async function NewsItems() {
   const NewsItems = await getNewsItems();
   console.log(NewsItems);
 

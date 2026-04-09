@@ -5,11 +5,11 @@ export default function Page() {
   return <div className={styles.page}>
       <main className={styles.main}>
         <div className={styles.intro}>
-          <p>Text</p>
+          <h4>3 hlekkir</h4>
           <ul>
-            <li>1. Forsida(þú ert hér)</li>
-            <li>2. listi af efni </li>
-            <li>3. submit sida</li>
+            <li>Hlekk 1. <a href="/landing">Forsida</a></li>
+            <li>Hlekk 2. <a href="/list">listi af efni</a></li>
+            <li>Hlekk 3. <a href="/submit">submit sida</a></li>
           </ul>
         </div>
       </main>
