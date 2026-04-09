@@ -1,13 +1,16 @@
 import Image from 'next/image'
-import styles from "./page.module.css";
+import styles from "../page.module.css";
 
 export default function Page() {
   return <div className={styles.page}>
       <main className={styles.main}>
-        <Image src="/favicon.ico" alt="Profile" width={100} height={100} />
         <div className={styles.intro}>
-          <h1>Title: Hello, Next.js!</h1> 
-          Text: filler
+          <p>Text</p>
+          <ul>
+            <li>1. Forsida(þú ert hér)</li>
+            <li>2. listi af efni </li>
+            <li>3. submit sida</li>
+          </ul>
         </div>
       </main>
     </div>
